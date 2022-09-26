@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <!--css page-->
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <!--font google-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Shop</title>
+</head>
+
+<body>
+    <nav class="navbar_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 logo">
+                    <a>Market</a>
+                </div>
+                <div class="col-lg-8 col-md-7 search">
+                    <input type="text">
+                    <button><a><i class="fab fa-searchengin"></i></a></button>
+                </div>
+                <div class="col-lg-2 col-md-3 info">
+                    <a class="name_user">Hello Paula</a>
+                    <a><i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="category">
+        <div class="container">
+            <ul>
+                <li href="https://web.whatsapp.com/">All categories</li>
+                <li>Supermarket</li>
+                <li>Mobile & Tables</li>
+                <li>TVs</li>
+                <li>Electromics</li>
+                <li>Home & Kitchen</li>
+                <li>Appliances</li>
+                <li>Heath & Beauty</li>
+                <li>Moms & Babies</li>
+                <li>Toys</li>
+                <li>Sports</li>
+                <li>Automotive</li>
+                <li>Office</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="body">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <ul class="filter">
+                        <li class="title_filter">Filters</li>
+                        <li onclick="myFunction()">
+                            <a>Show Only <i class="far fa-plus-square"></i></a>
+                            <ul id="Show_Only">
+                                <li>Show Only 1</li>
+                                <li>Show Only 2</li>
+                            </ul>
+                        </li>
+                        <li onclick="myFunction1()">
+                            <a>Category <i class="far fa-plus-square"></i></a>
+                            <ul id="Category">
+                                <li>Category 1</li>
+                                <li>Category 2</li>
+                            </ul>
+                        </li>
+                        <li onclick="myFunction2()">
+                            <a>Brand <i class="far fa-plus-square"></i></a>
+                            <ul id="Brand">
+                                <li>Brand 1</li>
+                                <li>Brand 2</li>
+                            </ul>
+                        </li>
+                        <li onclick="myFunction3()">
+                            <a>Condition <i class="far fa-plus-square"></i></a>
+                            <ul id="Condition">
+                                <li>Condition 1</li>
+                                <li>Condition 2</li>
+                            </ul>
+                        </li>
+                        <li onclick="myFunction4()">
+                            <a>Price <i class="far fa-plus-square"></i></a>
+                            <ul id="Price">
+                                <li>Price 1</li>
+                                <li>Price 2</li>
+                            </ul>
+                        </li>
+                        <li onclick="myFunction5()">
+                            <a>Average Rating<i class="far fa-plus-square"></i></a>
+                            <ul id="Average_Rating">
+                                <li>Average Rating 1</li>
+                                <li>Average Rating 2</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="items col-lg-10">
+                    <div class="row">
+                        <div class="col-lg-3 item">
+                            <img class="col-lg-6"   src="img/items01.jpg">
+                            <p class="col-lg-12" >AmazonBasics Double Braided Nylon USB 2.0 A to Micro B .... </p>
+                            <a class="col-lg-6" href="items.html">125.0EGP</a>
+                            <span class="col-lg-6 rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <button class="col-lg-11">ADD TO CART <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                        <div class="col-lg-3 item">
+                            <img class="col-lg-6" src="img/items01.jpg">
+                            <p class="col-lg-12">AmazonBasics Double Braided Nylon USB 2.0 A to Micro B .... </p>
+                            <a class="col-lg-6">125.0EGP</a>
+                            <span class="col-lg-6 rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <button class="col-lg-11">ADD TO CART <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                        <div class="col-lg-3 item">
+                            <img class="col-lg-6" src="img/items01.jpg">
+                            <p class="col-lg-12">AmazonBasics Double Braided Nylon USB 2.0 A to Micro B .... </p>
+                            <a class="col-lg-6">125.0EGP</a>
+                            <span class="col-lg-6 rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <button class="col-lg-11">ADD TO CART <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                        <div class="col-lg-3 item">
+                            <img class="col-lg-6" src="img/items01.jpg">
+                            <p class="col-lg-12">AmazonBasics Double Braided Nylon USB 2.0 A to Micro B .... </p>
+                            <a class="col-lg-6">125.0EGP</a>
+                            <span class="col-lg-6 rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <button class="col-lg-11">ADD TO CART <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                        <div class="col-lg-3 item">
+                            <img class="col-lg-6" src="img/items01.jpg">
+                            <p class="col-lg-12">AmazonBasics Double Braided Nylon USB 2.0 A to Micro B .... </p>
+                            <a class="col-lg-6">125.0EGP</a>
+                            <span class="col-lg-6 rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <button class="col-lg-11">ADD TO CART <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                        <div class="col-lg-3 item">
+                            <img class="col-lg-6" src="img/items01.jpg">
+                            <p class="col-lg-12">AmazonBasics Double Braided Nylon USB 2.0 A to Micro B .... </p>
+                            <a class="col-lg-6">125.0EGP</a>
+                            <span class="col-lg-6 rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <button class="col-lg-11">ADD TO CART <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                        <div class="col-lg-3 item">
+                            <img class="col-lg-6" src="img/items01.jpg">
+                            <p class="col-lg-12">AmazonBasics Double Braided Nylon USB 2.0 A to Micro B .... </p>
+                            <a class="col-lg-6">125.0EGP</a>
+                            <span class="col-lg-6 rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <button class="col-lg-11">ADD TO CART <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                        <div class="col-lg-3 item">
+                            <img class="col-lg-6" src="img/items01.jpg">
+                            <p class="col-lg-12">AmazonBasics Double Braided Nylon USB 2.0 A to Micro B .... </p>
+                            <a class="col-lg-6">125.0EGP</a>
+                            <span class="col-lg-6 rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <button class="col-lg-11">ADD TO CART <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                        <div class="col-lg-3 item">
+                            <img class="col-lg-6" src="img/items01.jpg">
+                            <p class="col-lg-12">AmazonBasics Double Braided Nylon USB 2.0 A to Micro B .... </p>
+                            <a class="col-lg-6">125.0EGP</a>
+                            <span class="col-lg-6 rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <button class="col-lg-11">ADD TO CART <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                        <div class="col-lg-3 item">
+                            <img class="col-lg-6" src="img/items01.jpg">
+                            <p class="col-lg-12">AmazonBasics Double Braided Nylon USB 2.0 A to Micro B .... </p>
+                            <a class="col-lg-6">125.0EGP</a>
+                            <span class="col-lg-6 rating">
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                            <button class="col-lg-11">ADD TO CART <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <ul class="col-lg-3">
+                        <li class="title_footer">Popular Searches</li>
+                        <li>Cameras</li>
+                        <li>Electronics</li>
+                        <li>TVs</li>
+                        <li>Supermarket</li>
+                        <li>ppliances</li>
+                        <li>Watches</li>
+                        <li>Mobile Phones</li>
+                        <li>Fashion</li>
+                        <li>Printers And Accessories</li>
+                        <li>Laptop</li>
+                    </ul>
+                    <ul class="col-lg-3">
+                        <li class="title_footer">My Account</li>
+                        <li>Log In / Register</li>
+                        <li>My Shopping Cart</li>
+                        <li>My Orders</li>
+                        <li>My Addresses</li>
+                        <li>Wish Lists</li>
+                        <li>Account Settings</li>
+                        <li>Account Summary</li>
+                    </ul>
+                    <ul class="col-lg-3">
+                        <li class="title_footer">Selling on Market</li>
+                        <li> How It Works</li>
+                        <li> Selling Policies</li>
+                        <li> Seller Terms and Conditions</li>
+                        <li> Fulfilled by Market</li>
+                        <li> FAQs</li>
+                    </ul>
+                    <ul class="col-lg-3">
+                        <li class="title_footer">Intellectual Property</li>
+                        <li>Brand and Copyright Owners</li>
+                        <li>Marketplace Sellers</li>
+                        <li class="title_footer"> Buying on Souq.com</li>
+                        <li>How to Buy</li>
+                        <li>Return Policy</li>
+                        <li> Advertise with us</li>
+                        <li> Help</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bouttom">
+            <div class="container">
+                <div class="row">
+                    <div class="small-12 columns"><strong>© 2021 Market</strong></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</html>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("Show_Only");
+
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+
+    }
+
+    function myFunction1() {
+        var xi = document.getElementById("Category");
+
+        if (xi.style.display === "none") {
+            xi.style.display = "block";
+        } else {
+            xi.style.display = "none";
+        }
+    }
+
+    function myFunction2() {
+        var xi = document.getElementById("Brand");
+
+        if (xi.style.display === "none") {
+            xi.style.display = "block";
+        } else {
+            xi.style.display = "none";
+        }
+    }
+
+    function myFunction3() {
+        var xi = document.getElementById("Condition");
+
+        if (xi.style.display === "none") {
+            xi.style.display = "block";
+        } else {
+            xi.style.display = "none";
+        }
+    }
+
+    function myFunction4() {
+        var xi = document.getElementById("Price");
+
+        if (xi.style.display === "none") {
+            xi.style.display = "block";
+        } else {
+            xi.style.display = "none";
+        }
+    }
+
+    function myFunction5() {
+        var xi = document.getElementById("Average_Rating");
+
+        if (xi.style.display === "none") {
+            xi.style.display = "block";
+        } else {
+            xi.style.display = "none";
+        }
+    }
+</script>

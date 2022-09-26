@@ -1,0 +1,97 @@
+.filter {
+    margin-top: 60px;
+}
+
+.filter li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.filter>li {
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    padding-bottom: 10px;
+}
+
+.filter>li a {
+    margin-bottom: 20px;
+    display: block
+}
+
+.filter li a i {
+    float: right;
+    margin-top: 5px;
+}
+
+#Show_Only,
+#Category,
+#Brand,
+#Condition,
+#Price,
+#Average_Rating {
+    display: none;
+}
+
+.filter .title_filter {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+/*/*/
+
+.body .items {
+    margin-top: 100px;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.body .items ul {
+    display: block ruby;
+    list-style: none;
+}
+
+.item {
+    border-right: 1px solid rgb(212, 212, 212);
+    border-bottom: 1px solid rgb(212, 212, 212);
+    padding: 10px;
+}
+
+.item img {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.item p {
+    width: 100%;
+    margin-top: 20px;
+    color: rgb(78, 78, 78);
+}
+
+.item a {
+    width: 100%;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    font-size: 20px;
+}
+
+.rating {
+    float: right;
+}
+
+.item button {
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 1.1428571429rem;
+    line-height: 1.1428571429rem;
+    padding: 1.0714285714rem;
+    border: 0;
+    transition: all .1s ease-in-out;
+    color: #fff;
+    background: rgb(27, 165, 27);
+    margin-top: 10px;
+}
